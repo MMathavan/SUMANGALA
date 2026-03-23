@@ -453,6 +453,12 @@
                     <a href="@Url.Action("Index", "SalesOrder")"><i class="fa fa-fw fa-bitbucket"></i> Sales Order</a>
                 </li>
             }
+            @if (User.IsInRole("SalesOrderPreClosed"))
+            {
+                <li>
+                    <a href="@Url.Action("Index", "SalesOrderPC")"><i class="fa fa-fw fa-stumbleupon"></i> Sales Order (Pre-Closed)</a>
+                </li>
+            }
             @if (User.IsInRole("SalesInvoiceIndex"))
             {
                 <li>
