@@ -456,7 +456,7 @@
             @if (User.IsInRole("SalesOrderPreClosed"))
             {
                 <li>
-                    <a href="@Url.Action("Index", "SalesOrderPC")"><i class="fa fa-fw fa-stumbleupon"></i> Sales Order (Pre-Closed)</a>
+                    <a href="@Url.Action("Index", "SalesOrderPC")"><i class="fa fa-fw fa-check-circle"></i> Sales Order (Pre-Closed)</a>
                 </li>
             }
             @if (User.IsInRole("SalesInvoiceIndex"))
