@@ -234,6 +234,7 @@
     <Compile Include="Controllers\NavbarController.cs" />
     <Compile Include="Controllers\RolesController.cs" />
     <Compile Include="Controllers\SalesOrder\SalesOrderController.cs" />
+    <Compile Include="Controllers\SalesOrder\SalesOrderPCController.cs" />
     <Compile Include="Controllers\SalesInvoice\SalesInvoiceController.cs" />
     <Compile Include="Data\AspNetUser.cs">
       <DependentUpon>SSMI.tt</DependentUpon>
@@ -1161,6 +1162,8 @@
     <Content Include="Views\EmployeeMaster\SForm.cshtml" />
     <Content Include="Views\SalesOrder\Index.cshtml" />
     <Content Include="Views\SalesOrder\_Details.cshtml" />
+    <Content Include="Views\SalesOrderPC\Index.cshtml" />
+    <Content Include="Views\SalesOrderPC\_Details.cshtml" />
     <Content Include="Views\SalesInvoice\Index.cshtml" />
     <Content Include="Views\SalesInvoice\_Details.cshtml" />
   </ItemGroup>
